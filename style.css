@@ -45,20 +45,55 @@ body{
    background-image: url(images/bg-image.png);
    background-repeat: no-repeat;
    background-size: auto;
+   margin-bottom: 5%;
    
 }
 .middle-banner h1{
+    font-size: 50px;
     margin-top: 100px;
 }
 .middle-banner p{
     text-align: justify;
     margin-right: 150px;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     line-height: 30px;
 }
 .middle-banner img{
     margin-left: 30px;
+}
+.recipe{
+    text-align: center;
+}
+.recipe p{
+    margin: 20px 450px;
+}
+.recipe h1{
+   font-size: 40px;
+}
+.recipi-items{
+    margin-top: 20px;
+    box-shadow: 5px 5px 100px rgb(207, 207, 207);
+    width: 20%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.recipie-details img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    height: 200px;
+    border-radius: 40px;
+}
+.recipie-details h2{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.recipie-details p{
+    text-align: justify;
+    padding: 5px 20px;
 }
 
 
