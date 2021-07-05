@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    opacity: 0.7;
+    line-height: 40px;
+}
+.flexible-container{
+    display: flex;
+    width: 120%;
+    margin-left: 5%;
+}
+.text-information{
+    margin-top: 150px;
+}
+.header-image{
+    width: 70%;
+}
+.skip-color{
+    color: orangered
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+#information-text{
+    text-align: justify;
+    font-size: 20px;
+    opacity: 0.6;
+    margin-bottom: 10%;
+}
