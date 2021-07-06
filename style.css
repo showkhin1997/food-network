@@ -11,7 +11,7 @@ body{
     font-weight: 900;
     font-size: 30px;
 }
-.header{
+#header{
    display: flex;
    height: 150px;
    box-shadow: 20px 20px 50px gray;
@@ -25,12 +25,12 @@ body{
     border-radius: 30px;
     font-weight: 700;
 }
-.header input{
+#searc-input-box{
     margin-top: 5px;
-    margin-left: 200px;
+    margin-left: 400px;
     border-bottom: 2px solid orangered;
 }
-.header img{
+#search-image{
     margin-top: 5px;
     margin-left: 5px;
 }
@@ -55,7 +55,7 @@ body{
     opacity: 0.6;
     margin-bottom: 10%;
 }
-.header-image{
+#header-image1{
     width: 60%;
 }
 .skip-color{
@@ -82,11 +82,11 @@ body{
 }
 .middle-banner h1{
     font-size: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .middle-banner p{
     text-align: justify;
-    margin-right: 150px;
+    margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
     line-height: 30px;
@@ -159,6 +159,9 @@ body{
 }
 .footer p{
     color: white;
+}
+.middle-banner img{
+    margin-left: 100px;
 }
 
 
