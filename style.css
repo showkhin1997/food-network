@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    width: 120%;
+    width: 75%;
     margin: 0;
 }
 .company-name{
@@ -12,6 +12,7 @@ body{
     font-size: 30px;
 }
 #header{
+   width: 140%;
    display: flex;
    height: 150px;
    box-shadow: 20px 20px 50px gray;
@@ -37,8 +38,8 @@ body{
 .top-banner{
     margin-top: 80px;
     display: flex;
-    width: 100%;
-    margin-left: 5%;
+    width: 130%;
+    margin-left: 10%;
 }
 .heading-text{
     font-size: 60px;
@@ -56,6 +57,8 @@ body{
     margin-bottom: 10%;
 }
 #header-image1{
+    margin-top: 5%;
+    margin-left: 50px;
     width: 60%;
 }
 .skip-color{
@@ -72,8 +75,7 @@ body{
 }
 .middle-banner{
    margin-top: 100px;
-   margin-left: 2%;
-   width: 80%;
+   margin-left: 5%;
    background-image: url(images/bg-image.png);
    background-repeat: no-repeat;
    background-size: auto;
@@ -102,37 +104,39 @@ body{
 }
 .recipe h1{
    font-size: 40px;
+   margin-left: 50%;
 }
 .recipi-items{
     margin-top: 20px;
     box-shadow: 5px 5px 100px rgb(207, 207, 207);
-    width: 20%;
-    margin-right: 5%;
+    width: 110%;
+    margin-right: 7%;
     padding: 10px;
     border-radius: 30px;
 }
 .recipie-details img{
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
     width: 350px;
     height: 200px;
     border-radius: 40px;
 }
 .recipie-details h2{
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 30px;
     font-weight: 700;
+    text-align: justify;
 }
 .recipie-details p{
-    text-align: justify;
     padding: 5px 20px;
+    width: 70%;
 }
 .followers-information{
     padding: 40px;
     margin-top: 200px;
     margin-left: 300px;
     box-shadow: 5px 5px 70px rgb(209, 209, 209);
-    width: 45%;
+    width: 80%;
     border-radius: 30px;
 }
 .followers-details{
@@ -147,8 +151,8 @@ body{
     margin-top: 60px;
     background-color: black;
     text-align: center;
-    margin-right: 250px;
-    padding: 20px
+    padding: 20px;
+    width: 135%;
 }
 .network{
     color: rgb(141, 141, 141);
